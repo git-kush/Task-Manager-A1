@@ -1,6 +1,8 @@
 # Task Manager Application
 
 A full-stack task management application built with .NET 8 and React TypeScript.
+- The application is available [here](https://assignment1-xi-sage.vercel.app)
+- The API is available [here](https://assignment1-g5iy.onrender.com)
 
 ## Prerequisites
 
@@ -12,8 +14,8 @@ A full-stack task management application built with .NET 8 and React TypeScript.
 
 ```
 task-manager/
-├── backend/          # .NET 8 Web API
-└── frontend/         # React + TypeScript
+├── backend/         
+└── frontend/        
 ```
 
 ## Backend Setup (.NET 8)
@@ -33,7 +35,7 @@ dotnet restore
 dotnet run
 ```
 
-The API will be available at [here](https://assignment1-g5iy.onrender.com)
+### The API will be available at [here](https://assignment1-g5iy.onrender.com)
 
 ### API Endpoints
 
@@ -61,7 +63,7 @@ npm install
 npm run dev
 ```
 
-The application will be available at [here](https://assignment1-xi-sage.vercel.app)
+### The application will be available at [here](https://assignment1-xi-sage.vercel.app)
 
 ## Features
 
@@ -90,8 +92,4 @@ The application will be available at [here](https://assignment1-xi-sage.vercel.a
 - Axios for API calls
 - React Hooks for state management
 
-## Development Notes
 
-- The backend uses in-memory storage, so data will be lost on server restart
-- The frontend uses localStorage for persistence across browser sessions
-- CORS is configured to allow requests from the frontend development server
